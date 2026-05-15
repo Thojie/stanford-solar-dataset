@@ -127,9 +127,7 @@ jupyter nbconvert --to notebook --execute new_data_process_flow.ipynb --ExecuteP
 - RAFT 权重：`RAFT/models/raft-small.pth` 必须存在，加载器会尝试兼容多种 state_dict 格式。
 - 首帧占位：光流数据集的第 0 帧为全零占位（因光流为帧间差分）。
 
-## 联系与扩展建议
-
-若需把 HDF5 格式调整为其他训练管线的输入格式（例如 TFRecord 或 torchvision Dataset 直接读取结构），可以在 `new_data_process_image.ipynb` 的 `flush_buffer` 基础上新增导出脚本。
-
+## 斯坦福原数据集下载链接-2019
+https://purl.stanford.edu/jj716hx9049
 ----
 
