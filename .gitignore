@@ -1,0 +1,11 @@
+# 忽略所有数据集
+data/
+*.h5
+*.tar
+*.zip
+*.csv
+*.npy
+*.pkl
+# 忽略 Python 缓存和虚拟环境
+__pycache__/
+.venv/
